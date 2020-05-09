@@ -7,6 +7,7 @@ def tools = new org.devops.tools()  //初始化共享库的类
 
 //Pipeline
 pipeline {
+    agent any
 
     options {
         timestamps()  //日志会有时间
