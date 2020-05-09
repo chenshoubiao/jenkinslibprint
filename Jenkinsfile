@@ -46,7 +46,7 @@ pipeline {
             timeout(time:30, unit:"MINUTES"){
                 script{
                     print("代码扫描")
-                    tools.PrintMes("获取代码",'green')    //调用共享库里面类的PrintMes方法
+                    tools.PrintMes("this is message")    //调用共享库里面类的PrintMes方法
                 }
             }
         }
