@@ -1,4 +1,4 @@
-
+#!groovy
 
 @Library('jenkinslibprint') _   //调用共享库，jenkinslibprint这个要跟仓库名一样
 
